@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Zero cabs</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="navbar-container">
+                <div class="navbar-wrapper">
+                    <div class="nav__header">
+                        <div class="nav__logo">
+                            <!-- <img src="assets/3.png" alt=""> -->
+                            <a href="#" class="logo"><span>ZERO</span> CABS.</a>
+                        </div>
+                        <div class="nav__menu__btn" id="menu-btn">
+                            <i class="ri-menu-line"></i>
+                        </div>
+                    </div>
+                    <ul class="nav__links" id="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#destination">Trips</a></li>
+                        <li><a href="#trip">Booking</a></li>
+                        <li><a href="#client">Clients</a></li>
+                        <li><a href="http://52.72.217.133/maitcabs/public/login">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <header class="section__container header__container" id="home">
+                <div class="header__image">
+                    <img src="assets/master_car.png" alt="header" />
+                </div>
+                <div class="header__content">
+                    <h3 class="section__subheader">Explore the world with</h3>
+                    <h1>ZERO CABS</h1>
+                    <p>
+                        At Zero Cabs, our vision is to inspire and empower
+                        people to explore the world in a meaningful way. We
+                        believe that travel has the power to broaden minds,
+                        foster cultural exchange, and create lifelong memories.
+                        We want to help our clients experience the world in all
+                        its beauty and diversity.
+                    </p>
+                    <div class="header__btns">
+                        <a href="#">
+                            <img src="assets/play_store.png" alt="" />
+                        </a>
+                        <a href="#">
+                            <img src="assets/app_store.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 
+
+              flex
+
+                display: flex ;
+                flex-direction: row | column;
+                justify-content: center | start | end | spaced..;
+                align-items: center;
+
+              box model
+
+              gird
+ 
+              <div class="container">
+                <div class="wrapper">
+                  <p class="text">hello world</p>
+                  <p class="text">venkat raman</p>
+                </div>
+              </div>
+
+            -->
+
+            <section class="section__container service__container" id="service">
+                <h2 class="section__header">Best Services</h2>
+                <div class="service__grid">
+                    <div class="service__card">
+                        <img src="assets/sedan.jpg.png" alt="service" />
+                        <h4>Sedan</h4>
+                        <p>
+                            Zero Caps provides comfortable rides through sedan
+                            vechile. spacious and comfortable seating for 4
+                            passengers. perfect for friends or family outings,
+                            offering comfort and convenience
+                        </p>
+                    </div>
+                    <div class="service__card">
+                        <img src="assets/suv.jpg.png" alt="service" />
+                        <h4>Suv</h4>
+                        <p>
+                            Suv provides a smooth ride ,ample legroom, and the
+                            ability to handle any terrain. And comfortably seat
+                            up to 6 passengers with plenty of legroom and
+                            headroom. Explore the outdoors or nearby cities with
+                            the versatility of an Suv.
+                        </p>
+                    </div>
+                    <div class="service__card">
+                        <img src="assets/mini.jpg.png" alt="service" />
+                        <h4>Mini</h4>
+                        <p>
+                            Zero caps provides a smaller size often translates
+                            to better fuel efficiency. Our mini taxis are
+                            well-maintained and driven by experienced
+                            professionals. Book your mini taxi today and
+                            experience a smart and convenient way to travel !
+                        </p>
+                    </div>
+                    <div class="service__card">
+                        <img src="assets/eeco.jpg.png" alt="service" />
+                        <h4>Eeco</h4>
+                        <p>
+                            Emphasize large passenger capacity and ample luggage
+                            space, perfect for families, groups, or airport
+                            transfers. And Highlight eco-friendliness and fuel
+                            efficiency, ideal for environmentally conscious
+                            riders.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="section__container destination__container"
+                id="destination"
+            >
+                <h2 class="section__header">Trip Types</h2>
+                <div class="destination__grid">
+                    <div class="destination__card">
+                        <img src="assets/local.jpg" alt="destination" />
+                        <div class="destination__details">
+                            <div>
+                                <h4>Intra City</h4>
+                            </div>
+                            <p>
+                                Our local services and designed to make your
+                                journey as smooth and convenient as possible and
+                                our drivers are familiar with the city's ins and
+                                outs, offering recommendations and navigating
+                                traffic like a pro. Enjoy predictable fares for
+                                frequently traveled routes within the city.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="destination__card">
+                        <img src="assets/rental.jpg" alt="destination" />
+                        <div class="destination__details">
+                            <div>
+                                <h4>Rental</h4>
+                            </div>
+                            <p>
+                                A simple taxi ride and explore our convenient
+                                taxi rental service! Perfect for road trips,
+                                spanning multiple location ,or even business
+                                travel. Choose a rental duration that fits your
+                                needs, from a few hours to multiple days.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="destination__card">
+                        <img src="assets/outstation.jpg" alt="destination" />
+                        <div class="destination__details">
+                            <div>
+                                <h4>Outstation</h4>
+                            </div>
+                            <p>
+                                Dreaming of a weekend getaway or a longer
+                                adventure? Escape the city limits and explore
+                                new horizons with our convenient and reliable
+                                outstation taxi services!. Our professional
+                                drivers are well-versed in outstation routes
+                                ,ensuring a safe and enjoyable journey
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section__container trip__container" id="trip">
+                <div class="trip__image">
+                    <img src="assets/trip.png" alt="trip" />
+                </div>
+                <div class="trip__content">
+                    <h2 class="section__header">
+                        Book Your Next Trip In 3 Easy Ways
+                    </h2>
+                    <ul class="trip__list">
+                        <li>
+                            <span><img src="assets/Mobile.png" alt="" /></span>
+                            <div>
+                                <h4>Mobile Application</h4>
+                                <p>
+                                    Go to the Zero caps app choose services and
+                                    choose your destination enjoy the ride by a
+                                    easy way.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span
+                                ><img src="assets/Dispatcher.png" alt=""
+                            /></span>
+                            <div>
+                                <h4>Dispatcher</h4>
+                                <p>
+                                    We introducing new feature of dispatcher
+                                    option by calling your favorite agency .
+                                    It's very useful for people not have a smart
+                                    mobile phone . just a normal dial you book a
+                                    caps in a anywhere.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span
+                                ><img src="assets/ride-latter.png" alt=""
+                            /></span>
+                            <div>
+                                <h4>Ride Later</h4>
+                                <p>
+                                    And also people book ride earlier by ride
+                                    later option . Its using for book a cap
+                                    previously days any trip planning , weekend
+                                    trips.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section__container client__container" id="client">
+                <div class="client__content">
+                    <h2 class="section__header">What People Say About Us</h2>
+                </div>
+                <div class="client__swiper">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="client__card">
+                                    <img
+                                        src="assets/client-1.jpg"
+                                        alt="client"
+                                    />
+                                    <div class="client__card__content">
+                                        <p>
+                                            At Zero Cabs, our vision is to
+                                            inspire and empower people to
+                                            explore the world in a meaningful
+                                            way. We believe that travel has the
+                                            power to broaden minds, foster
+                                            cultural exchange, and create
+                                            lifelong memories.
+                                        </p>
+                                        <h4>Name</h4>
+                                        <h5>Safe Ride</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="client__card">
+                                    <img
+                                        src="assets/client-2.jpg"
+                                        alt="client"
+                                    />
+                                    <div class="client__card__content">
+                                        <p>
+                                            At Zero Cabs, our vision is to
+                                            inspire and empower people to
+                                            explore the world in a meaningful
+                                            way. We believe that travel has the
+                                            power to broaden minds, foster
+                                            cultural exchange, and create
+                                            lifelong memories.
+                                        </p>
+                                        <h4>Name</h4>
+                                        <h5>Safe Ride</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="client__card">
+                                    <img
+                                        src="assets/client-3.jpg"
+                                        alt="client"
+                                    />
+                                    <div class="client__card__content">
+                                        <p>
+                                            At Zero Cabs, our vision is to
+                                            inspire and empower people to
+                                            explore the world in a meaningful
+                                            way. We believe that travel has the
+                                            power to broaden minds, foster
+                                            cultural exchange, and create
+                                            lifelong memories.
+                                        </p>
+                                        <h4>Name</h4>
+                                        <h5>Safe Ride</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="section__container footer__container">
+                    <div class="footer__col">
+                        <div class="footer__logo">
+                            <a href="#" class="logo"><span>ZERO</span> CABS.</a>
+                        </div>
+                        <p>
+                            At Zero Cabs, our vision is to inspire and empower
+                            people to explore the world in a meaningful way. We
+                            believe that travel has the power to broaden minds,
+                            foster cultural exchange, and create lifelong
+                            memories.
+                        </p>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Company</h4>
+                        <ul class="footer__links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Mobile</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Contact</h4>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#"
+                                    >+91 9342446447 <br />
+                                    +91 9986801710</a
+                                >
+                            </li>
+                            <li><a href="#">zerocab@gmail.com</a></li>
+                            <li><a href="#">Hosur</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <ul class="footer__socials">
+                            <li>
+                                <a href="#"><i class="ri-facebook-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="ri-instagram-line"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ri-twitter-fill"></i></a>
+                            </li>
+                        </ul>
+                        <h5>Discover our app</h5>
+                        <div class="footer__discover">
+                            <a href="#"
+                                ><img
+                                    src="assets/google-play.jpg"
+                                    alt="discover"
+                            /></a>
+                            <a href="#"
+                                ><img src="assets/app-store.jpg" alt="discover"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bar">
+                    Copyright © 2024 Web Design Mastery. All rights reserved.
+                </div>
+            </footer>
+
+            <script src="https://unpkg.com/scrollreveal"></script>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>
